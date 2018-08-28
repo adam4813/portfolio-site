@@ -8,30 +8,14 @@ body {
   padding-right: 60px;
 }
 
-.jumbotron hr {
+.section-hr {
   border-bottom-left-radius: 5em;
   border-bottom-right-radius: 5em;
   border-top: 4px solid #a5a5a5;
   border-bottom: 7px solid #521414;
 }
 
-.socialbtns {
-  padding-top: 3px;
-}
-
-.socialbtns li {
-  display: inline;
-}
-
-.socialbtns li .fa {
-  font-size: 36px;
-}
-
-.socialbtns li .fa-google-plus {
-  color: red;
-}
-
-.socialbtns li .fa-github {
+.fa-github {
   color: black;
 }
 
@@ -46,4 +30,31 @@ body {
   background: #e0ebe8;
   padding-top: 25vh;
   min-height: 100vh;
+}
+
+.nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+.project-tile, .col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-tile {
+  background-color: white;
+  box-shadow: 3px 3px lightgray;
+  padding: 2px;
+}
+
+.col hr {
+  width: 50%;
+  border: solid darkgray 1px;
+  border-radius: unset;
 }
